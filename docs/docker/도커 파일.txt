@@ -1,0 +1,12 @@
+[root@oracle22 org_kjh_centos_simple]# docker-compose up -d --build web
+Building web
+[+] Building 17.0s (27/27) FINISHED                                                                                                                                                                                                         
+...
+Recreating web ... done
+
+이렇게 띄워져 있어도
+특정 서버만 다시 빌드해서 올릴수있음
+근데 docker images 보면 알겠지만 수레기 이미지가 많이 생김 주의
+
+6c8db83555b0   org_kjh_centos_simple_web   "/usr/sbin/init"   18 minutes ago   Up 18 minutes   0.0.0.0:80->80/tcp, :::80->80/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp, 0.0.0.0:8081->8081/tcp, :::8081->8081/tcp, 0.0.0.0:5001->22/tcp, :::5001->22/tcp   web
+f9f8223010be   org_kjh_centos_simple_db1   "/usr/sbin/init"   17 hours ago     Up 17 hours     0.0.0.0:4001->22/tcp, :::4001->22/tcp, 0.0.0.0:13306->3306/tcp, :::13306->3306/tcp                                                                           db1
