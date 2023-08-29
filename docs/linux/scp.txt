@@ -1,0 +1,7 @@
+원격 파일복사
+#윈도우
+scp -r . root@192.168.123.163:/root/jinhok/nsam-lab
+#리눅스
+scp -r 원본파일 root@DestinationIP:/root
+
+
