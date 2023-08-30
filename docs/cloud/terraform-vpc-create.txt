@@ -1,0 +1,32 @@
+테라폼 웹 앱 필요한데 일단
+
+# 0
+api 키 env 설정
+$env:NCLOUD_ACCESS_KEY="22D3764A3DF3365C82C9"  
+$env:NCLOUD_SECRET_KEY="A66CE98C4CA3C073A3E484D4A6ADBB4B2045F752"
+
+
+# 1
+vpc 생성
+21310
+tfstate에 생성됨 - 아웃풋으로 vpc_id, vpc_name, cidr 까지 가져와야할듯
+  "outputs": {
+    "vpc_id": {
+      "value": "21310",
+      "type": "string"
+    }
+  },
+
+vpc_id = "21310"
+
+#2
+https://registry.terraform.io/providers/NaverCloudPlatform/ncloud/latest/docs/data-sources/server_images
+tfvars 설정하고 4_2_terraform_server/main_module
+
+
+#3
+acg 설정 
+
+#4
+ansible
+추가스토리지 - 
