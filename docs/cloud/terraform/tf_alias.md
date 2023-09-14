@@ -3,13 +3,15 @@
 VSCode에서 PowerShell 터미널을 사용하고 있다면, `terraform` 명령어를 `tf`로 단축하여 사용할 수 있습니다. 이를 위해서는 별칭(alias)을 설정해야 합니다.
 
 ```powershell
-#터미널을 닫으면 설정이 사라집니다.
+#터미널을 닫으면 설정이 사라집니다. #윈도우 파워셸 #이것만해도편함
 Set-Alias -Name tf -Value terraform
 ```
 
 - 현재 사용자에 대한 모든 호스트: `~\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
 - 모든 사용자에 대한 모든 호스트: `$PSHOME\profile.ps1`
 
+```markdown
+아래 내용은 보안이슈로 뭐가 안됨
 1. **본인의 사용자 프로필 스크립트 확인**
 
     ```powershell
@@ -41,6 +43,7 @@ Set-Alias -Name tf -Value terraform
     ```powershell
     . $PROFILE
     ```
+```
 
 이제 `tf` 별칭을 사용하여 `terraform` 명령을 실행할 수 있어야 합니다.
 
