@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f1f2-1f1e9
+---
 # terraform 명령을 tf로 단축하기
 ### 1. 별칭 설정
 VSCode에서 PowerShell 터미널을 사용하고 있다면, `terraform` 명령어를 `tf`로 단축하여 사용할 수 있습니다. 이를 위해서는 별칭(alias)을 설정해야 합니다.

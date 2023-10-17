@@ -19,14 +19,14 @@ tfstate에 생성됨 - 아웃풋으로 vpc_id, vpc_name, cidr 까지 가져와�
 
 vpc_id = "21310"
 
-#2
+# 2
 https://registry.terraform.io/providers/NaverCloudPlatform/ncloud/latest/docs/data-sources/server_images
 tfvars 설정하고 4_2_terraform_server/main_module
 
 
-#3
+# 3
 acg 설정 
 
-#4
+# 4
 ansible
 추가스토리지 - 
