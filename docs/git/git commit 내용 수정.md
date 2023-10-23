@@ -1,3 +1,6 @@
+---
+tags: git
+---
 # `git filter-branch` 사용 가이드라인
 
 ## !!주의 사항!!

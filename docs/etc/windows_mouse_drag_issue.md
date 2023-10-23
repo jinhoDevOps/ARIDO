@@ -1,3 +1,6 @@
+---
+tags: windows
+---
 # Windows 마우스 드래그 드랍 안됨 문제
 
 ## 목차

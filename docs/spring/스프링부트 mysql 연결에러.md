@@ -1,3 +1,6 @@
+---
+tags: java, spring, mysql
+---
 # 스프링부트 mysql 연결에러
 ```
 4.4.1.3 Changes in the Connector/J API

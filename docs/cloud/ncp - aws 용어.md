@@ -1,5 +1,9 @@
 ---
 sticker: emoji//1f1f2-1f1e9
+tags:
+  - ncp
+  - aws
+  - "#cloud"
 ---
 # 네이버 클라우드 플랫폼(NCP)과 아마존 웹 서비스(AWS) 서비스 비교
 ## 목차

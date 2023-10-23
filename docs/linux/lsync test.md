@@ -1,4 +1,7 @@
-lsync test #8월4주
+---
+tags: linux
+---
+lsync test # 8월4주
 
 
 https://blog.jiniworld.me/112  

@@ -1,5 +1,6 @@
 ---
 sticker: emoji//1f1f2-1f1e9
+tags: terraform
 ---
 # terraform 명령을 tf로 단축하기
 ### 1. 별칭 설정

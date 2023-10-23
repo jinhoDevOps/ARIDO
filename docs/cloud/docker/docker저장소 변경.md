@@ -1,3 +1,6 @@
+---
+tags: docker
+---
 
 # Docker 홈 디렉토리 변경 가이드라인
 

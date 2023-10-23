@@ -1,3 +1,6 @@
+---
+tags: git
+---
 # `.gitignore`추적제거
 
 `.gitignore` 파일을 수정했다면, 그 변경사항은 새로 추가되는 파일에만 적용됩니다. 이미 Git 추적 목록(`tracking list`)에 있는 파일은 `.gitignore`의 변경사항에 영향을 받지 않습니다.
