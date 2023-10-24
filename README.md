@@ -1,6 +1,3 @@
----
-tags: github
----
 # ARIDO
 
 
