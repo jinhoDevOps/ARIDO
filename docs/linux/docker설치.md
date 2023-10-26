@@ -1,5 +1,6 @@
 ---
 tags: linux, docker
+sticker: emoji//1f40b
 ---
 # CentOS 7에 도커를 설치하는 기본 가이드
 
