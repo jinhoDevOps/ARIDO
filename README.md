@@ -1,5 +1,5 @@
 ---
-sticker: emoji//1f536
+sticker: emoji//2b1c
 ---
 # ARIDO
 
