@@ -18,8 +18,15 @@ With PowerShell, there is an additional step or two. You must ensure [Get-Execu
 Set-ExecutionPolicy Bypass -Scope Process -Force; iwr https://community.chocolatey.org/install.ps1 -UseBasicParsing | iex
 ```
 
+
+# 그냥 무지성 복붙 ㄱㄱ
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force;
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
 iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
+```
+
+```sh
+#버전확인
+choco -v
 ```
