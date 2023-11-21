@@ -10,9 +10,12 @@ tags:
 - [주요 서비스 비교 표](#주요-서비스-비교-표)
 - [설명](#설명)
 
-| 분류                | 네이버 클라우드 플랫폼(NCP)    | 아마존 웹 서비스(AWS)         |
+| 분류                | 네이버 클라우드 플랫폼(NCP)    | 아마존 웹 서비스(AWS)        |
 |---------------------|--------------------------------|------------------------------|
 | 컴퓨팅              | Server (가상 서버)             | EC2 (Elastic Compute Cloud)  |
+| 네트워크            | VPC (Virtual Private Cloud)    | VPC (Virtual Private Cloud)  |
+| 네트워크 ACL        | NACL (Network ACL)             | NACL (Network Access Control List) |
+| 보안 그룹           | ACG (Access Control Group)     | Security Groups               |
 | 스토리지            | Object Storage                 | S3 (Simple Storage Service)  |
 | 블록 스토리지       | Block Storage                  | EBS (Elastic Block Store)    |
 | 파일 스토리지       | NAS (Network Attached Storage) | EFS (Elastic File System)    |
@@ -20,16 +23,10 @@ tags:
 | NoSQL               |  CDB for MongoDB             | DynamoDB                     |
 | CDN                 | CDN+, Global Edge              | CloudFront                   |
 | 로드 밸런서         | Load Balancer                  | ELB (Elastic Load Balancer)  |
-| 컨테이너 서비스     | Kubernetes Service             | EKS (Elastic Kubernetes Service) |
+| 컨테이너 서비스     | NKS (Naver Kubernets Service)  | EKS (Elastic Kubernetes Service) |
 | 서버리스 컴퓨팅      | Cloud Function                 | Lambda                       |
-| 네트워크            | VPC (Virtual Private Cloud)    | VPC (Virtual Private Cloud)  |
-| 네트워크 ACL        | NACL (Network ACL)             | NACL (Network Access Control List) |
-| 보안 그룹           | ACG (Access Control Group)     | Security Groups               |
-| 모니터링            | Monitoring                     | CloudWatch                   |
-| 메시지 큐           | MQ                             | SQS (Simple Queue Service)    |
-| 이메일              | Simple & SES                   | SES (Simple Email Service)   |
-| 알림                | Cloud Alert                    | SNS (Simple Notification Service) |
-| 모니터링            | Cloud Insight Monitoring       | CloudWatch                   |
+| 알림                | Simple & Easy Notification Service | SNS (Simple Notification Service) |
+| 모니터링            | Cloud Insight (Monitoring)     | CloudWatch                   |
 | 자원 접근제어       | Sub Account                | IAM(Identity and Access Management) |
 
 ---
