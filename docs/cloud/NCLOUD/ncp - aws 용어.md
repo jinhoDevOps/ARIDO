@@ -28,6 +28,9 @@ tags:
 | 알림                | Simple & Easy Notification Service | SNS (Simple Notification Service) |
 | 모니터링            | Cloud Insight (Monitoring)     | CloudWatch                   |
 | 자원 접근제어       | Sub Account                | IAM(Identity and Access Management) |
+| 클라우드 구성 관리 | NCMS (Naver Cloud Management Service) | CloudFormation |
+
+
 
 ---
 ### 설명
