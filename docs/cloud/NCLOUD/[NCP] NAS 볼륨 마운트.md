@@ -19,12 +19,14 @@ systemctl restart rpcbind // stop 후에 재시작?
 ```
 mkdir /mnt/nas
 mount -t nfs {마운트정보} /mnt/nas
-mount -t nfs 169.254.0.20:/n2955699_testnas /mnt/nas
+mount -t nfs 169.254.84.49:/n2955718_insighttest /mnt/nas
 ```
 	nfs: network file sys
 	@@@: 마운트 정보에있는 경로
 	`df -h`  //마운트 확인
-
+169.254.84.49:/n2955718_insighttest
 1. fstab 설정
 `vi /etc/fstab`
 `@@@ /mntnas nfs defaults 0 0`
+
+`169.254.84.49:/n2955718_insighttest /mnt/nas nfs defaults 0 0`
