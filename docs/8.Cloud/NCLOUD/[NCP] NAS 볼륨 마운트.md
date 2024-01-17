@@ -6,9 +6,17 @@ tags:
 ??how to add NAS
 https://guide.ncloud-docs.com/docs/nas-use-linux-vpc
 1. 볼륨을 만든다
-2. 서버에 필요한 패키지들을 받는다
+2. rocky 서버에 필요한 패키지들을 받는다
 ```
 yum install nfs-utils -y  //얘도os별로 다름
+systemctl start rpcbind 
+systemctl enable rpcbind
+systemctl status rpcbind  //상태확인
+systemctl restart rpcbind // stop 후에 재시작?
+```
+2. ubuntu 서버에 필요한 패키지들을 받는다
+```
+apt-get install nfs-common
 systemctl start rpcbind 
 systemctl enable rpcbind
 systemctl status rpcbind  //상태확인
