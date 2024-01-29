@@ -1,17 +1,18 @@
 {
 	"nodes":[
-		{"id":"f4e5e3bf212cef56","x":-660,"y":-200,"width":890,"height":480,"type":"group","label":"VPC"},
-		{"id":"e0ca1ebbec5eb778","x":-620,"y":0,"width":290,"height":160,"type":"group","label":"pub-subnet"},
-		{"id":"221062156b94ccae","x":-120,"y":0,"width":290,"height":160,"type":"group","label":"priv-subnet"},
-		{"id":"d50e4930bd2c9128","x":348,"y":-184,"width":250,"height":60,"type":"text","text":""},
-		{"id":"d97f372ce13c0c89","type":"text","text":"# OBS\n- 버킷A\n- 버킷B\n- ...","x":300,"y":-500,"width":180,"height":160},
-		{"id":"10c1bdfa0d9aa6c9","x":-628,"y":-640,"width":818,"height":120,"type":"file","file":"ARIDO/8.Cloud/NCLOUD/files/Pasted image 20240118133338.png"},
-		{"id":"11bef3b72a9c6327","x":-100,"y":20,"width":250,"height":60,"type":"text","text":"private-server"},
-		{"id":"2adff84772727ebc","type":"text","text":"private-server","x":-100,"y":80,"width":250,"height":60},
-		{"id":"65fe91ca0230f461","x":-100,"y":-255,"width":250,"height":70,"color":"5","type":"text","text":"외부"},
-		{"id":"bed628fdd558b479","x":-600,"y":20,"width":250,"height":60,"type":"text","text":"public-server"},
+		{"id":"f4e5e3bf212cef56","type":"group","x":-660,"y":-200,"width":890,"height":480,"label":"VPC"},
+		{"id":"221062156b94ccae","type":"group","x":-120,"y":0,"width":290,"height":160,"label":"priv-subnet"},
+		{"id":"e0ca1ebbec5eb778","type":"group","x":-620,"y":0,"width":290,"height":160,"label":"pub-subnet"},
+		{"id":"8d916dffdab25634","type":"text","text":"# OBS\n- 버킷A\n- 버킷B\n- ...","x":-350,"y":-300,"width":180,"height":160},
+		{"id":"bed628fdd558b479","type":"text","text":"public-server","x":-600,"y":20,"width":250,"height":60},
 		{"id":"6d0e5ba16086aa62","type":"text","text":"public-server","x":-600,"y":80,"width":250,"height":60},
-		{"id":"8d916dffdab25634","x":-350,"y":-300,"width":180,"height":160,"type":"text","text":"# OBS\n- 버킷A\n- 버킷B\n- ..."}
+		{"id":"10c1bdfa0d9aa6c9","type":"file","file":"ARIDO/8.Cloud/NCLOUD/files/Pasted image 20240118133338.png","x":-700,"y":-680,"width":818,"height":120},
+		{"id":"7ee2dd979892ea35","type":"text","text":"<span style='color:#fa8231'>일반 도메인</span> https://kr.object.ncloudstorage.com\n<span style='color:#0fb9b1'>private 도메인</span> https://kr.object.private.ncloudstorage.com","x":-242,"y":-465,"width":472,"height":90},
+		{"id":"d97f372ce13c0c89","type":"text","text":"# OBS\n- 버킷A\n- 버킷B\n- ...","x":300,"y":-500,"width":180,"height":160},
+		{"id":"11bef3b72a9c6327","type":"text","text":"private-server","x":-100,"y":20,"width":250,"height":60},
+		{"id":"2adff84772727ebc","type":"text","text":"private-server","x":-100,"y":80,"width":250,"height":60},
+		{"id":"65fe91ca0230f461","type":"text","text":"외부","x":-25,"y":-255,"width":100,"height":70,"color":"5"},
+		{"id":"d50e4930bd2c9128","type":"text","text":"","x":348,"y":-184,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"91c2043700f71b27","fromNode":"bed628fdd558b479","fromSide":"right","toNode":"8d916dffdab25634","toSide":"bottom","color":"2"},
