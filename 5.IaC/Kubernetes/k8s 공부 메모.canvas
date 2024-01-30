@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"0de06ec9963b0317","type":"group","x":-404,"y":-400,"width":1164,"height":420,"label":"컨트롤러 종류"},
+		{"id":"93f004ad385284cd","type":"group","x":-287,"y":390,"width":387,"height":523,"label":"control-plane (master)"},
+		{"id":"b15f6608de0239ee","type":"group","x":178,"y":520,"width":307,"height":393,"label":"worker 1"},
+		{"id":"78b835c40175cc30","type":"group","x":538,"y":520,"width":307,"height":393,"label":"worker 2"},
+		{"id":"260d8229a3eaa02a","type":"text","text":"Daemon set","x":-380,"y":-240,"width":160,"height":60},
+		{"id":"9cdcc3c5903482e9","type":"text","text":"Replicaset","x":-180,"y":-240,"width":160,"height":60},
+		{"id":"dfff92b7cbc08f4d","type":"text","text":"Deployment","x":-180,"y":-360,"width":160,"height":60},
+		{"id":"16a086266253f3af","type":"text","text":"Stateful set","x":40,"y":-240,"width":160,"height":60},
+		{"id":"d1e1472af8a2f513","type":"text","text":"pod","x":50,"y":-60,"width":140,"height":60},
+		{"id":"365dea9b7404677d","type":"text","text":"Job","x":300,"y":-240,"width":119,"height":60},
+		{"id":"e19070ab6c9a0f47","type":"text","text":"cron job","x":296,"y":-360,"width":128,"height":60},
+		{"id":"4a386add75b8cd2c","type":"text","text":"## 디플로이먼트  |  서비스\n# API\n","x":-267,"y":410,"width":347,"height":150},
+		{"id":"2b89de6c0b663a04","type":"text","text":"Replication Controller","x":480,"y":-240,"width":250,"height":60},
+		{"id":"93c0d6dfdfa4b4bc","type":"text","text":"Controller","x":-267,"y":600,"width":174,"height":60},
+		{"id":"a51e08fbb4ce038c","type":"text","text":"scheduler","x":-267,"y":680,"width":174,"height":60},
+		{"id":"4af62b195301ca98","type":"text","text":"etcd","x":-60,"y":600,"width":140,"height":140},
+		{"id":"4d0e139c651f00f6","type":"text","text":"core DNS","x":-267,"y":800,"width":156,"height":53},
+		{"id":"29b1226ac659aa53","type":"text","text":"core DNS","x":-249,"y":840,"width":156,"height":53},
+		{"id":"f34f796e9ad53c8b","type":"text","text":"eno1\n10.100.0.101","x":305,"y":840,"width":160,"height":50},
+		{"id":"0517e8067eb8884b","type":"text","text":"eno1\n10.100.0.102","x":665,"y":840,"width":160,"height":50},
+		{"id":"c0bff6803bbf11b3","type":"text","text":"eno1\n10.100.0.104","x":-80,"y":840,"width":160,"height":50},
+		{"id":"9057d01b3f7d1ef8","type":"text","text":"# [[[K8S] 2 쿠버네티스 공부]]","x":-66,"y":-580,"width":373,"height":56}
+	],
+	"edges":[
+		{"id":"6755a14936664db8","fromNode":"dfff92b7cbc08f4d","fromSide":"bottom","toNode":"9cdcc3c5903482e9","toSide":"top"},
+		{"id":"d2ad760297c2f6a8","fromNode":"9cdcc3c5903482e9","fromSide":"bottom","toNode":"d1e1472af8a2f513","toSide":"left"},
+		{"id":"c1c591bbd2bd541c","fromNode":"260d8229a3eaa02a","fromSide":"bottom","toNode":"d1e1472af8a2f513","toSide":"left"},
+		{"id":"1336876059fcbef3","fromNode":"16a086266253f3af","fromSide":"bottom","toNode":"d1e1472af8a2f513","toSide":"top"},
+		{"id":"e4526fa631351ce8","fromNode":"365dea9b7404677d","fromSide":"bottom","toNode":"d1e1472af8a2f513","toSide":"right"},
+		{"id":"359e7cbcc0ce2eb5","fromNode":"e19070ab6c9a0f47","fromSide":"bottom","toNode":"365dea9b7404677d","toSide":"top"},
+		{"id":"d978af4607753643","fromNode":"2b89de6c0b663a04","fromSide":"bottom","toNode":"d1e1472af8a2f513","toSide":"right"}
+	]
+}
