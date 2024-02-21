@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"7b4aaf2c28aeb831","x":-209,"y":61,"width":649,"height":220,"type":"group","label":"클라우드 펑션"},
+		{"id":"da2263b032e136b3","x":920,"y":240,"width":290,"height":323,"type":"group","label":"API WORKFLOW"},
+		{"id":"38c5afe8e20e798d","type":"text","text":"이거 펑션에서","x":-132,"y":-267,"width":250,"height":147},
+		{"id":"0f70265b0711afc2","type":"text","text":"트리거","x":-189,"y":81,"width":250,"height":60},
+		{"id":"7c9605cb9bf24994","type":"text","text":"액션","x":-189,"y":141,"width":250,"height":60},
+		{"id":"e18dd456093157a3","type":"text","text":"서버리스 동작","x":-189,"y":201,"width":250,"height":60},
+		{"id":"1b03e4b4a38fc2bf","x":118,"y":141,"width":222,"height":60,"type":"text","text":"외부주소 | APIGW"},
+		{"id":"bf3ee962eb4ae48d","x":-6,"y":330,"width":470,"height":167,"color":"2","type":"text","text":"여기에 NCP 인증 필요한데\n이걸 API WORK FLOW 에서 전달 가능하다면..\n- 우선 v1/v2 둘다 알아서 헤더 잘 보내는듯\n- v1의 body 포함해서 요청하는건 테스트 필요"},
+		{"id":"d001c02e18a0b793","x":940,"y":260,"width":250,"height":60,"type":"text","text":"api a"},
+		{"id":"cc634351931fe3d7","x":940,"y":483,"width":250,"height":60,"type":"text","text":"api b"},
+		{"id":"063651f43015ed17","x":940,"y":376,"width":250,"height":60,"type":"text","text":"...\n"}
+	],
+	"edges":[
+		{"id":"8daa5ed06c91f967","fromNode":"7c9605cb9bf24994","fromSide":"right","toNode":"1b03e4b4a38fc2bf","toSide":"left","toEnd":"none"},
+		{"id":"c7b5819e917e0cc4","fromNode":"1b03e4b4a38fc2bf","fromSide":"bottom","toNode":"bf3ee962eb4ae48d","toSide":"top"},
+		{"id":"2dd42015f8489273","fromNode":"d001c02e18a0b793","fromSide":"bottom","toNode":"063651f43015ed17","toSide":"top"},
+		{"id":"4509303625373d99","fromNode":"063651f43015ed17","fromSide":"bottom","toNode":"cc634351931fe3d7","toSide":"top"},
+		{"id":"4ef15525db95c79a","fromNode":"bf3ee962eb4ae48d","fromSide":"right","toNode":"063651f43015ed17","toSide":"left","color":"2","label":"여기에 껴서 요청이 가능한가"}
+	]
+}
