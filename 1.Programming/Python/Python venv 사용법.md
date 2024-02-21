@@ -49,3 +49,4 @@ deactivate
 ```bash
 pip install 패키지이름
 ```
+
